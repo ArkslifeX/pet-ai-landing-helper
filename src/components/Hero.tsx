@@ -20,15 +20,15 @@ export const Hero = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative animate-fade-up group">
             <img
-              src="/lovable-uploads/8923752e-2a44-4cbc-a9eb-421b949f5e54.png"
-              alt="Petpin AI Device"
+              src="/lovable-uploads/471597b7-7b32-4b7a-8fff-cbf1eee93bca.png"
+              alt="Petpin AI Display Device"
               className="w-full object-cover rounded-2xl transform transition-transform duration-500 group-hover:scale-[1.02]"
             />
           </div>
           <div className="relative animate-fade-up group">
             <img
-              src="/lovable-uploads/12fd1ef9-b9cf-4e65-a62d-cbc8e53775fa.png"
-              alt="Petpin AI App Interface"
+              src="/lovable-uploads/59112fed-848a-47f4-972c-512350365ecb.png"
+              alt="Petpin AI Camera Device"
               className="w-full object-cover rounded-2xl transform transition-transform duration-500 group-hover:scale-[1.02]"
             />
           </div>
