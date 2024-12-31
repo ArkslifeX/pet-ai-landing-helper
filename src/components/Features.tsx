@@ -1,6 +1,6 @@
 export const Features = () => {
   return (
-    <div className="bg-gray-900 text-white py-24">
+    <div id="features" className="bg-gray-900 text-white py-24">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
           Advanced Features
@@ -8,28 +8,28 @@ export const Features = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4 animate-fade-up">
-              <h3 className="text-2xl font-bold">Adventure Capture</h3>
+              <h3 className="text-2xl font-bold">Real-time Emotion Translation</h3>
               <p className="text-gray-300">
-                From playtime with other pets to interactions with strangers, this device captures every moment of your pet's adventures.
+                Advanced AI algorithms decode your pet's barks, meows, and body language to understand their emotional state.
               </p>
             </div>
             <div className="space-y-4 animate-fade-up">
-              <h3 className="text-2xl font-bold">Emotion Recognition</h3>
+              <h3 className="text-2xl font-bold">Activity Monitoring</h3>
               <p className="text-gray-300">
-                Decodes barks, meows, and body language to provide real-time understanding of your pet's emotions.
+                Track your pet's activity levels, location, and daily routines with precise sensors and GPS tracking.
               </p>
             </div>
             <div className="space-y-4 animate-fade-up">
-              <h3 className="text-2xl font-bold">Real-Time Insights</h3>
+              <h3 className="text-2xl font-bold">Health Insights</h3>
               <p className="text-gray-300">
-                Maps out your pet's journey with GPS, camera, and sensors, offering insights into their daily activities.
+                Get real-time alerts about your pet's well-being and detailed health analytics through our smart app.
               </p>
             </div>
           </div>
           <div className="relative animate-fade-up">
             <img
-              src="/lovable-uploads/647c5c55-c2a4-4dd0-b2f7-8aec13c857c6.png"
-              alt="App Interface"
+              src="/lovable-uploads/bad8a7aa-d06b-4ec9-839d-d2540d308630.png"
+              alt="Petpin AI Camera"
               className="w-full rounded-lg shadow-2xl"
             />
           </div>

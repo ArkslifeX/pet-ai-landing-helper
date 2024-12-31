@@ -2,22 +2,22 @@ import { Button } from "@/components/ui/button";
 
 export const Pricing = () => {
   return (
-    <div className="bg-gray-900 text-white py-24">
+    <div id="pricing" className="bg-gray-900 text-white py-24">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
           Simple Pricing
         </h2>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {[
             {
               name: "Basic",
               price: "$10",
               period: "/month",
               features: [
-                "Up to 30 interactions per day",
-                "Basic adventure tracking",
-                "Emotion recognition",
-                "GPS location",
+                "Basic emotion translation",
+                "Activity tracking",
+                "Location monitoring",
+                "Mobile app access",
               ],
               highlight: false,
             },
@@ -26,21 +26,21 @@ export const Pricing = () => {
               price: "$25",
               period: "/month",
               features: [
-                "30-75 interactions per day",
                 "Advanced emotion analysis",
-                "Real-time insights",
-                "Behavior patterns",
+                "Health insights & alerts",
+                "Behavior pattern analysis",
+                "24/7 video recording",
               ],
               highlight: true,
             },
             {
-              name: "Enterprise",
-              price: "$100",
+              name: "Family",
+              price: "$40",
               period: "/month",
               features: [
-                "75+ interactions per day",
-                "Custom analytics",
-                "Advanced reporting",
+                "Multiple pet support",
+                "Advanced health analytics",
+                "Family member access",
                 "Priority support",
               ],
               highlight: false,
@@ -50,9 +50,9 @@ export const Pricing = () => {
               key={plan.name}
               className={`rounded-lg p-8 ${
                 plan.highlight
-                  ? "bg-primary text-white"
+                  ? "bg-primary text-white scale-105 transform"
                   : "bg-gray-800 text-white"
-              } animate-fade-up`}
+              } animate-fade-up hover:scale-105 transition-transform duration-300`}
             >
               <h3 className="text-2xl font-bold mb-4">{plan.name}</h3>
               <div className="mb-6">
