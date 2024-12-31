@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export const Mission = () => {
   return (
     <div id="mission" className="bg-gray-900 text-white py-24 relative">
