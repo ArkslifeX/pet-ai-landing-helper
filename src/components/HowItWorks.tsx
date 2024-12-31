@@ -8,7 +8,7 @@ export const HowItWorks = () => {
             <div className="group">
               <h3 className="text-2xl font-['Nohemi'] mb-4">Adventure Capture</h3>
               <p className="text-gray-600 font-['Nohemi']">
-                From playtime with other pets to interactions with strangers, this device captures every moment of your pet's adventures, ensuring no moment goes unnoticed.
+                Maps out your pet's journey with the help of GPS, camera, and sensors, offering insights into their daily activities and behavioral tracking.
               </p>
             </div>
             <div className="group">
@@ -20,7 +20,7 @@ export const HowItWorks = () => {
             <div className="group">
               <h3 className="text-2xl font-['Nohemi'] mb-4">Real-Time Insights</h3>
               <p className="text-gray-600 font-['Nohemi']">
-                Maps out your pet's journey with the help of GPS, camera, and sensors, offering insights into their daily activities and behavioral tracking.
+                From playtime with other pets to interactions with strangers, this device captures every moment of your pet's adventures, ensuring no moment goes unnoticed.
               </p>
             </div>
             <div className="group">
@@ -32,7 +32,7 @@ export const HowItWorks = () => {
           </div>
           <div className="relative animate-fade-up">
             <img
-              src="/lovable-uploads/2f09946c-0870-4129-8d82-b2b5b7a3ae55.png"
+              src="/lovable-uploads/ba02f51a-fd74-42d2-a61f-a72c8aa48b21.png"
               alt="Petpin AI Interface"
               className="w-full rounded-2xl transform transition-transform duration-500 hover:scale-[1.02]"
             />

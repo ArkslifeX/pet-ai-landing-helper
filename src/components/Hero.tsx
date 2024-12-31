@@ -28,7 +28,7 @@ export const Hero = () => {
           </div>
           <div className="relative animate-fade-up group">
             <img
-              src="/lovable-uploads/2f09946c-0870-4129-8d82-b2b5b7a3ae55.png"
+              src="/lovable-uploads/ba02f51a-fd74-42d2-a61f-a72c8aa48b21.png"
               alt="Petpin AI App Interface"
               className="w-full object-cover rounded-2xl transform transition-transform duration-500 group-hover:scale-[1.02]"
             />
